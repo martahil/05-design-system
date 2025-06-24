@@ -27,4 +27,16 @@
 
 .tokens-grid tbody tr:nth-child(even) td {
   background: #444;
+  color: #FFF;
+}
+
+.tokens-grid tbody tr:nth-child(odd) td {
+  color: #444;
+}
+
+.tokens-grid,
+.tokens-grid th,
+.tokens-grid td,
+.tokens-grid tr {
+  border: none !important;
 }
