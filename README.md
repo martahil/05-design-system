@@ -2,3 +2,5 @@
 - tsup
 - Monorepo
 - stitches
+- storybook
+- Turbo Repo

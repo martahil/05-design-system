@@ -1,11 +1,21 @@
 {
+  "packageManager": "npm@11.3.0",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "react": "^19.1.0"
+    "react": "^19.1.0",
+    "turbo": "^2.5.4"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.0",
+    "styled-jsx": "^5.1.7"
   }
 }
