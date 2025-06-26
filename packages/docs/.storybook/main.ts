@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook/react-vite';
+import type { StorybookConfig } from '@storybook/react-vite'
 
 import { join, dirname } from "path"
 
@@ -22,4 +22,4 @@ const config: StorybookConfig = {
     "options": {}
   }
 };
-export default config;
+export default config
