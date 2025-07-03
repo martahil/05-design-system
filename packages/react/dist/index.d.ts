@@ -1043,4 +1043,9 @@ interface ButtonProps extends ComponentProps<typeof Button> {
     as?: ElementType;
 }
 
-export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Heading, type HeadingProps, Text, type TextProps };
+interface TextInputProps {
+    prefix?: string;
+}
+declare function TextInput({ prefix }: TextInputProps): react_jsx_runtime.JSX.Element;
+
+export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Heading, type HeadingProps, Text, TextInput, type TextInputProps, type TextProps };
