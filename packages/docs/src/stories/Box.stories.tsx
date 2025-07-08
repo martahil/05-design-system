@@ -8,8 +8,11 @@ export default {
   args: {
     children: <Text>Testing the Box element</Text>
   },
+  argTypes: {
+    children: {
+      control: false,
+    }
+  }
 } as Meta<BoxProps>
 
-export const Primary: StoryObj<BoxProps> = {
-
-}
+export const Primary: StoryObj<BoxProps> = {}
