@@ -2097,7 +2097,7 @@ var TextArea = styled("textarea", {
   resize: "vertical",
   minHeight: 80,
   "&:focus": {
-    outline: 0.5,
+    outline: 0,
     borderColor: "$ignite300"
   },
   "&:disabled": {
