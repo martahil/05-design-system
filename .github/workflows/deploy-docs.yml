@@ -12,21 +12,25 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
-      - run: npm ci        
-      - run: npm run build
-        
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
       - name: Deploy storybook
         working-directory: ./packages/docs
-        run: |
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/martahil/05-design-system.git
-          npm run deploy-storybook -- --ci --existing-output-dir=storybook-static --branch=gh-pages --source-branch=main
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
