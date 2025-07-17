@@ -30,11 +30,15 @@ jobs:
 
       - name: Publish to NPM
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v1.4.0
         with:
           publish: npm run release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # token padrão obrigatório
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}          # seu token pessoal (PAT) para permissão total
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: martas-projects-99ac1eac
+
+
+
