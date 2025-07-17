@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as s}from"./index-CVUhi9kQ.js";import{T as i}from"./TokensGrid-D3Gr_Est.js";import{b as r}from"./index-CrFT8R9j.js";import"./iframe-CeYVphKz.js";const l={title:"Tokens/Font Families"};function e(t){const o={h1:"h1",...s(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(o.h1,{id:"fonts-families",children:"Fonts Families"}),`
+`,n.jsx(i,{tokens:r})]})}function u(t={}){const{wrapper:o}={...s(),...t.components};return o?n.jsx(o,{...t,children:n.jsx(e,{...t})}):e(t)}export{u as default,l as meta};

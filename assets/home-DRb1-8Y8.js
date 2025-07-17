@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as i}from"./index-CVUhi9kQ.js";import"./iframe-CeYVphKz.js";const c={title:"Home"};function o(n){const e={h1:"h1",p:"p",...i(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(e.h1,{id:"ignite-ui",children:"Ignite UI"}),`
+`,t.jsx(e.p,{children:"Ignite Design System."})]})}function u(n={}){const{wrapper:e}={...i(),...n.components};return e?t.jsx(e,{...n,children:t.jsx(o,{...n})}):o(n)}export{u as default,c as meta};

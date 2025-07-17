@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as r}from"./index-CVUhi9kQ.js";import{T as i}from"./TokensGrid-D3Gr_Est.js";import{r as s}from"./index-CrFT8R9j.js";import"./iframe-CeYVphKz.js";const u={title:"Tokens/Radii"};function e(t){const o={h1:"h1",...r(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(o.h1,{id:"radii",children:"Radii"}),`
+`,n.jsx(i,{tokens:s})]})}function f(t={}){const{wrapper:o}={...r(),...t.components};return o?n.jsx(o,{...t,children:n.jsx(e,{...t})}):e(t)}export{f as default,u as meta};

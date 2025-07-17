@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as s}from"./index-CVUhi9kQ.js";import{T as r}from"./TokensGrid-D3Gr_Est.js";import{a as i}from"./index-CrFT8R9j.js";import"./iframe-CeYVphKz.js";const x={title:"Tokens/Font Weights"};function e(t){const o={h1:"h1",...s(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(o.h1,{id:"font-weights",children:"Font Weights"}),`
+`,n.jsx(r,{tokens:i})]})}function u(t={}){const{wrapper:o}={...s(),...t.components};return o?n.jsx(o,{...t,children:n.jsx(e,{...t})}):e(t)}export{u as default,x as meta};

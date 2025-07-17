@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as s}from"./index-CVUhi9kQ.js";import{T as i}from"./TokensGrid-D3Gr_Est.js";import{l as r}from"./index-CrFT8R9j.js";import"./iframe-CeYVphKz.js";const l={title:"Tokens/Line Heights"};function o(t){const e={h1:"h1",...s(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{id:"line-heights",children:"Line Heights"}),`
+`,n.jsx(i,{tokens:r})]})}function u(t={}){const{wrapper:e}={...s(),...t.components};return e?n.jsx(e,{...t,children:n.jsx(o,{...t})}):o(t)}export{u as default,l as meta};
